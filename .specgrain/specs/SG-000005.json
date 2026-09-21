@@ -1,0 +1,58 @@
+{
+  "id": "SG-000005",
+  "title": "Deliver Acarat market evidence, valuation, land intelligence, and decision models",
+  "outcome": "Acarat produces reproducible, explainable, calibrated rent, sale, and land price ranges plus comparable evidence, market position, listing diagnostics, customer matching, and scenario intelligence with abstention under insufficient evidence.",
+  "schema_version": 1,
+  "rationale": "Program-level intelligence child spanning roadmap P11-P13 and P18. It is explicitly not a model-training authorization.",
+  "parent_id": "SG-000001",
+  "scope_in": [
+    "P11 market evidence ingestion and comparable engine",
+    "P12 Fair Rent and Fair Sale baseline",
+    "P13 Fair Land intelligence",
+    "P18 intelligence expansion and scenario tools"
+  ],
+  "scope_out": [
+    "Training on unqualified scraped data",
+    "Point estimates without intervals",
+    "LLM-generated numeric valuation",
+    "Protected/sensitive personal feature use",
+    "Production ML without held-out calibration evidence"
+  ],
+  "acceptance": [
+    "Every valuation/model capability is refined into bounded Grains with source rights, leakage prevention, temporal/geographic holdouts, baseline comparison, calibration, segment metrics, artifact identity, rollback, and abstention."
+  ],
+  "dependencies": [
+    "SG-000002"
+  ],
+  "risk": {
+    "level": "high",
+    "recovery": "Planning child only; model deployment is separately gated."
+  },
+  "context": {},
+  "change_surface": [],
+  "evidence": {
+    "required": [
+      "market-observation-contract",
+      "comparable-receipts",
+      "calibration",
+      "model-governance"
+    ]
+  },
+  "method": "controlled",
+  "state": "DRAFT",
+  "children": [],
+  "labels": [
+    "program-child",
+    "valuation",
+    "land",
+    "market-intelligence"
+  ],
+  "metadata": {
+    "roadmap_phases": [
+      "P11",
+      "P12",
+      "P13",
+      "P18"
+    ]
+  }
+}

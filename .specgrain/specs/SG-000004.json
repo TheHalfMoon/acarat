@@ -1,0 +1,61 @@
+{
+  "id": "SG-000004",
+  "title": "Deliver Agent Terminal, transactions, analytics, trust, and agency operations",
+  "outcome": "Licensed agents and authorized agency teams can manage previous/current/future customers, leads, tasks, viewings, offers, deals, contracts, renewals, listing analytics, verified reviews, and subscription entitlements with auditable authority.",
+  "schema_version": 1,
+  "rationale": "Program-level child spanning roadmap P07-P10, P17, and P19. It must be recursively refined before implementation.",
+  "parent_id": "SG-000001",
+  "scope_in": [
+    "P07 Agent Terminal CRM and tasks",
+    "P08 viewings, offers, deal room",
+    "P09 rental contract/Ejar adapter",
+    "P10 analytics event model and dashboards",
+    "P17 reviews, reputation, and trust graph",
+    "P19 agency/team operations and subscription"
+  ],
+  "scope_out": [
+    "Unsupported government automation",
+    "Opaque agent scoring",
+    "Subscription-paid organic ranking",
+    "Autonomous consequential AI actions"
+  ],
+  "acceptance": [
+    "Agent/transaction capabilities are decomposed into bounded Grains with explicit lifecycle states, authorization, audit, idempotency, unknown-outcome handling, analytics semantics, and review eligibility."
+  ],
+  "dependencies": [
+    "SG-000002"
+  ],
+  "risk": {
+    "level": "high",
+    "recovery": "Planning child only; external transactions remain gated by refined adapter Grains."
+  },
+  "context": {},
+  "change_surface": [],
+  "evidence": {
+    "required": [
+      "crm-lifecycle",
+      "transaction-authority",
+      "analytics-metric-contracts",
+      "review-eligibility"
+    ]
+  },
+  "method": "controlled",
+  "state": "DRAFT",
+  "children": [],
+  "labels": [
+    "program-child",
+    "agent-terminal",
+    "transactions",
+    "analytics"
+  ],
+  "metadata": {
+    "roadmap_phases": [
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P17",
+      "P19"
+    ]
+  }
+}

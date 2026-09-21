@@ -1,0 +1,54 @@
+{
+  "id": "SG-000003",
+  "title": "Deliver Acarat consumer marketplace, persistent intent, and conversational discovery",
+  "outcome": "Customers can discover, understand, compare, save, monitor, and act on Saudi properties through verified marketplace pages, map/list parity, lists, alerts, comparison, conversational search, and voice without hidden constraint relaxation.",
+  "schema_version": 1,
+  "rationale": "Program-level child for the consumer experience spanning roadmap P05, P06, and consumer portions of P14. It is not executable until refined.",
+  "parent_id": "SG-000001",
+  "scope_in": [
+    "P05 marketplace discovery and Property Passport",
+    "P06 lists, saved searches, alerts, notifications",
+    "P14 conversational and voice search consumer surfaces"
+  ],
+  "scope_out": [
+    "Agent CRM authority",
+    "Production government contract submission",
+    "Unproven valuation models",
+    "3D reconstruction implementation"
+  ],
+  "acceptance": [
+    "Consumer capabilities are decomposed into bounded Grains and preserve typed SearchIntent, deterministic execution, map/list parity, durable alerts, explainable results, Arabic/English parity, and privacy."
+  ],
+  "dependencies": [
+    "SG-000002"
+  ],
+  "risk": {
+    "level": "high",
+    "recovery": "Planning child only; implementation rollback is defined by refined Grains."
+  },
+  "context": {},
+  "change_surface": [],
+  "evidence": {
+    "required": [
+      "search-intent-contract",
+      "alert-durability",
+      "arabic-evaluation"
+    ]
+  },
+  "method": "controlled",
+  "state": "DRAFT",
+  "children": [],
+  "labels": [
+    "program-child",
+    "consumer",
+    "search",
+    "alerts"
+  ],
+  "metadata": {
+    "roadmap_phases": [
+      "P05",
+      "P06",
+      "P14"
+    ]
+  }
+}
