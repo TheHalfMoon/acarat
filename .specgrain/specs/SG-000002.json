@@ -1,0 +1,56 @@
+{
+  "id": "SG-000002",
+  "title": "Establish Acarat governance, engineering, identity, property, and Saudi geo foundation",
+  "outcome": "Acarat has a rights-qualified engineering foundation, Saudi-first identity/regulatory boundaries, durable property/listing semantics, and reliable geospatial truth before marketplace expansion.",
+  "schema_version": 1,
+  "rationale": "Program-level child covering roadmap P00-P04. It must be recursively refined before implementation.",
+  "parent_id": "SG-000001",
+  "scope_in": [
+    "P00 governance and source rights",
+    "P01 repository and engineering foundation",
+    "P02 identity, tenancy, privacy, and regulatory trust",
+    "P03 property, land, unit, and listing truth",
+    "P04 Saudi geo/address and map foundation"
+  ],
+  "scope_out": [
+    "Marketplace intelligence beyond basic discovery",
+    "Agent CRM workflows",
+    "Production valuation models",
+    "Advanced 3D reconstruction",
+    "Production launch certification"
+  ],
+  "acceptance": [
+    "Every P00-P04 roadmap phase is decomposed into bounded executable Grains with explicit source, security, privacy, Arabic/RTL, accessibility, test, rollback, and evidence requirements."
+  ],
+  "dependencies": [],
+  "risk": {
+    "level": "high",
+    "recovery": "Planning child only; implementation rollback is defined by refined Grains."
+  },
+  "context": {},
+  "change_surface": [],
+  "evidence": {
+    "required": [
+      "phase-decomposition",
+      "source-rights",
+      "saudi-authority-boundaries"
+    ]
+  },
+  "method": "controlled",
+  "state": "DRAFT",
+  "children": [],
+  "labels": [
+    "program-child",
+    "p00-p04",
+    "foundation"
+  ],
+  "metadata": {
+    "roadmap_phases": [
+      "P00",
+      "P01",
+      "P02",
+      "P03",
+      "P04"
+    ]
+  }
+}
