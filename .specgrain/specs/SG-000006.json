@@ -1,0 +1,53 @@
+{
+  "id": "SG-000006",
+  "title": "Deliver advanced geospatial intelligence and rights-qualified property 3D",
+  "outcome": "Acarat provides commute-aware search, large-scale market map layers, satellite/aerial context, panoramas, floor plans, and optional rights-qualified property digital twins with progressive web performance and explicit media provenance.",
+  "schema_version": 1,
+  "rationale": "Program-level spatial/media child spanning roadmap P15-P16. It must be refined before implementation and does not admit restrictive research code.",
+  "parent_id": "SG-000001",
+  "scope_in": [
+    "P15 advanced geospatial analytics and commute",
+    "P16 360/3D/digital-twin pipeline"
+  ],
+  "scope_out": [
+    "Restricted satellite caching without rights",
+    "Non-commercial 3D code in production",
+    "Unlabeled AI-staged property imagery",
+    "Map-only inaccessible product facts"
+  ],
+  "acceptance": [
+    "Spatial/media capabilities are decomposed into bounded Grains with provider rights, attribution, provenance, privacy, fidelity, performance, accessibility fallback, and commercial-license evidence."
+  ],
+  "dependencies": [
+    "SG-000002"
+  ],
+  "risk": {
+    "level": "high",
+    "recovery": "Planning child only; all heavy media pipelines remain replaceable derivatives."
+  },
+  "context": {},
+  "change_surface": [],
+  "evidence": {
+    "required": [
+      "provider-rights",
+      "media-provenance",
+      "3d-license-closure",
+      "map-accessibility"
+    ]
+  },
+  "method": "controlled",
+  "state": "DRAFT",
+  "children": [],
+  "labels": [
+    "program-child",
+    "geo",
+    "3d",
+    "media"
+  ],
+  "metadata": {
+    "roadmap_phases": [
+      "P15",
+      "P16"
+    ]
+  }
+}
