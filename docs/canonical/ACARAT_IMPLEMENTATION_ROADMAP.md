@@ -31,6 +31,11 @@ P18 Intelligence expansion and scenario tools
 P19 Agency/team operations and subscription
 P20 Production hardening and launch qualification
 P21 Post-launch scale gates
+P22 Investment and portfolio intelligence
+P23 Property management operating system
+P24 Off-plan and developer marketplace
+P25 Financing, deposits, and regulated payment rails
+P26 Enterprise dashboards and governed data products
 ~~~
 
 ## 2. P00 — Governance and source rights
@@ -670,3 +675,86 @@ The product should eventually track:
 - privacy/security incidents.
 
 Do not optimize raw engagement at the expense of decision quality or trust.
+
+
+## 26. P22 — Investment and portfolio intelligence
+
+Outcome:
+
+Acarat extends existing market evidence into transparent property and portfolio decision analytics.
+
+Scope:
+
+- gross/net yield scenarios;
+- cash-flow assumptions;
+- vacancy/maintenance scenarios;
+- acquisition basis;
+- current Acarat range;
+- portfolio concentration;
+- contract/renewal exposure;
+- market trend and liquidity.
+
+Exit gate:
+
+- all assumptions explicit;
+- no guaranteed-return claim;
+- no hidden financial-advice framing;
+- scenario calculations reproducible.
+
+## 27. P23 — Property management operating system
+
+Outcome:
+
+Landlords/property managers can manage units, tenants, leases, maintenance, renewals, tasks, and owner reporting over the same property/customer/contract identities.
+
+Exit gate:
+
+- no duplicate property/customer truth;
+- tenant privacy and role boundaries;
+- maintenance/task lifecycle;
+- payment/contract status only from qualified sources;
+- owner statements reproducible.
+
+## 28. P24 — Off-plan and developer marketplace
+
+Outcome:
+
+Verified developers/projects can publish structured projects, unit inventory, payment schedules, progress, and authorized reservation flows.
+
+Exit gate:
+
+- project/developer authority evidence;
+- inventory concurrency safety;
+- reservation state machine;
+- progress provenance;
+- no unverified completion/permit claims.
+
+## 29. P25 — Financing, deposits, and regulated payment rails
+
+Outcome:
+
+Acarat can compare financing scenarios and connect to qualified financing/payment/escrow providers without silently becoming a bank, lender, or custodian.
+
+Exit gate:
+
+- provider/regulatory authority proven;
+- rate/fee freshness;
+- no invented credit decision;
+- funds are not held by Acarat unless separately authorized;
+- reconciliation and dispute/refund semantics proven.
+
+## 30. P26 — Enterprise dashboards and governed data products
+
+Outcome:
+
+Agencies, developers, operators, and approved partners can use role-scoped executive/operations/sales/marketing/compliance/finance analytics and rights-cleared data APIs.
+
+Exit gate:
+
+- semantic metric registry;
+- source redistribution rights;
+- aggregation/privacy thresholds;
+- API versioning;
+- tenant isolation;
+- export/audit controls;
+- no raw government/provider redistribution without rights.
