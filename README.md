@@ -41,3 +41,27 @@ Subscription status must not buy organic ranking.
 ## Status
 
 Planning foundation only. See the canonical planning documents on the planning branch for architecture, intelligence, geospatial, analytics, Agent Terminal, source qualification, and staged implementation gates.
+
+
+## Canonical planning index
+
+- [Master Vision](docs/canonical/ACARAT_MASTER_VISION.md)
+- [Architecture Plan](docs/canonical/ACARAT_ARCHITECTURE_PLAN.md)
+- [Intelligence and Valuation](docs/canonical/ACARAT_INTELLIGENCE_AND_VALUATION_PLAN.md)
+- [Spatial, 3D, and Media](docs/canonical/ACARAT_SPATIAL_3D_AND_MEDIA_PLAN.md)
+- [Consumer Search, Lists, Alerts, and Compare](docs/canonical/ACARAT_SEARCH_LISTS_ALERTS_COMPARE.md)
+- [Agent Terminal and Analytics](docs/canonical/ACARAT_AGENT_TERMINAL_AND_ANALYTICS.md)
+- [Mobile App Plan](docs/canonical/ACARAT_MOBILE_APP_PLAN.md)
+- [KPI and Measurement Framework](docs/canonical/ACARAT_KPI_AND_MEASUREMENT_FRAMEWORK.md)
+- [Saudi Trust and Integrations](docs/canonical/ACARAT_SAUDI_TRUST_AND_INTEGRATIONS.md)
+- [Trust, Safety, Privacy, and AI Authority](docs/canonical/ACARAT_TRUST_SAFETY_PRIVACY_AI_AUTHORITY.md)
+- [Expansion Products Plan](docs/canonical/ACARAT_EXPANSION_PRODUCTS_PLAN.md)
+- [Implementation Roadmap](docs/canonical/ACARAT_IMPLEMENTATION_ROADMAP.md)
+- [Source Qualification Ledger](docs/research/ACARAT_SOURCE_QUALIFICATION_LEDGER.md)
+- [SpecGrain root program](.specgrain/specs/SG-000001.json)
+
+## Planning governance
+
+The canonical plan is deliberately broader than an MVP and deliberately narrower than implementation authority.
+
+Program-level SpecGrain specifications remain DRAFT until refined into bounded executable Grains. Each implementation Grain must prove scope, sources/rights, security/privacy, negative cases, tests, rollback, and exact-head evidence before acceptance.
