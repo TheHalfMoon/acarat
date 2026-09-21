@@ -8,6 +8,7 @@
 Initial production shape:
 
 - apps/web — Next.js/React/TypeScript public marketplace and authenticated web product.
+- apps/mobile — React Native/Expo TypeScript application with customer and role-authorized agent workspaces; custom native modules are admitted where MapLibre, voice, camera, secure storage, notifications, or government deep-link flows require them.
 - apps/api — Go API and domain application service.
 - apps/worker — Go asynchronous worker from the same backend codebase.
 - services/intelligence — isolated Python model/feature worker admitted only for ML workloads that materially benefit from Python.
@@ -28,9 +29,9 @@ Go is the primary backend because Acarat is dominated by transactional workflows
 
 ### TypeScript
 
-TypeScript owns browser/UI concerns: Next.js server-rendered marketplace, SEO, Arabic/RTL, agent/customer dashboards, MapLibre/deck.gl rendering, client state, and accessible interaction.
+TypeScript owns web and mobile presentation concerns: Next.js server-rendered marketplace and SEO, React Native/Expo mobile surfaces, Arabic/RTL, agent/customer dashboards, native/web map rendering, client state, deep links, push-notification UX, camera/media capture, and accessible interaction.
 
-Business authority must not live only in Next.js server actions.
+Business authority must not live only in Next.js server actions or mobile client state. Web and mobile call the same authorized domain commands.
 
 ### Python
 
@@ -304,6 +305,7 @@ Proposed structure:
 ~~~text
 /apps
   /web
+  /mobile
   /api
   /worker
 /services
@@ -323,7 +325,51 @@ Proposed structure:
 
 Exact build tooling remains an implementation-gate decision.
 
-## 17. Extraction triggers
+## 17. Mobile architecture
+
+Acarat ships one role-aware mobile application first rather than duplicating customer and agent apps.
+
+Customer mobile capabilities include:
+
+- conversational/voice search;
+- native map/list discovery;
+- saved searches and push alerts;
+- lists and compare;
+- property/passport/media/3D access;
+- contact/viewing/offer/deal state;
+- contract notifications;
+- private saved places.
+
+Authorized agent mobile capabilities include:
+
+- Agent Terminal home;
+- lead inbox;
+- customer 360;
+- tasks;
+- listing inventory;
+- viewing calendar;
+- offers/deals;
+- renewal queue;
+- push alerts;
+- media capture/upload.
+
+Mobile requirements:
+
+- secure token/credential storage;
+- biometric unlock option for sensitive workspaces;
+- deep-link and universal-link routing;
+- offline-safe read cache for lists/tasks and an explicit queued-command policy;
+- push-notification dedupe with canonical in-app notification IDs;
+- upload resume/background behavior;
+- location permission minimization;
+- camera/gallery permission minimization;
+- Arabic/RTL parity;
+- accessibility;
+- no hidden business rule divergence from web.
+
+Property 3D can initially reuse a hardened shared web renderer inside an isolated view when that provides better fidelity, while the map/search/navigation path should use native-capable rendering where benchmarks justify it.
+
+## 18. Extraction triggers
 
 Do not create a microservice until one of these is proven:
 
