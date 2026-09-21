@@ -47,6 +47,7 @@ Planning foundation only. See the canonical planning documents on the planning b
 
 - [Master Vision](docs/canonical/ACARAT_MASTER_VISION.md)
 - [Architecture Plan](docs/canonical/ACARAT_ARCHITECTURE_PLAN.md)
+- [Domain and Data Model](docs/canonical/ACARAT_DOMAIN_AND_DATA_MODEL.md)
 - [Intelligence and Valuation](docs/canonical/ACARAT_INTELLIGENCE_AND_VALUATION_PLAN.md)
 - [Spatial, 3D, and Media](docs/canonical/ACARAT_SPATIAL_3D_AND_MEDIA_PLAN.md)
 - [Consumer Search, Lists, Alerts, and Compare](docs/canonical/ACARAT_SEARCH_LISTS_ALERTS_COMPARE.md)
@@ -57,7 +58,9 @@ Planning foundation only. See the canonical planning documents on the planning b
 - [Trust, Safety, Privacy, and AI Authority](docs/canonical/ACARAT_TRUST_SAFETY_PRIVACY_AI_AUTHORITY.md)
 - [Expansion Products Plan](docs/canonical/ACARAT_EXPANSION_PRODUCTS_PLAN.md)
 - [Implementation Roadmap](docs/canonical/ACARAT_IMPLEMENTATION_ROADMAP.md)
+- [Requirements Traceability](docs/canonical/ACARAT_REQUIREMENTS_TRACEABILITY.md)
 - [Source Qualification Ledger](docs/research/ACARAT_SOURCE_QUALIFICATION_LEDGER.md)
+- [Competitor Intelligence](docs/research/ACARAT_COMPETITOR_INTELLIGENCE_2026-09-21.md)
 - [SpecGrain root program](.specgrain/specs/SG-000001.json)
 
 ## Planning governance
