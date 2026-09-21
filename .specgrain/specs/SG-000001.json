@@ -21,7 +21,8 @@
     "SG-000004",
     "SG-000005",
     "SG-000006",
-    "SG-000007"
+    "SG-000007",
+    "SG-000008"
   ],
   "labels": [
     "program",
@@ -32,6 +33,7 @@
   ],
   "metadata": {
     "planning_revision": "2026-09-21",
-    "canonical_roadmap": "docs/canonical/ACARAT_IMPLEMENTATION_ROADMAP.md"
+    "canonical_roadmap": "docs/canonical/ACARAT_IMPLEMENTATION_ROADMAP.md",
+    "expansion_plan": "docs/canonical/ACARAT_EXPANSION_PRODUCTS_PLAN.md"
   }
 }
