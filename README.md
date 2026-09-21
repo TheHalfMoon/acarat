@@ -45,6 +45,8 @@ Planning foundation only. See the canonical planning documents on the planning b
 
 ## Canonical planning index
 
+- [Astro Master Planning Brief](ASTRO.md)
+
 - [Master Vision](docs/canonical/ACARAT_MASTER_VISION.md)
 - [Architecture Plan](docs/canonical/ACARAT_ARCHITECTURE_PLAN.md)
 - [Domain and Data Model](docs/canonical/ACARAT_DOMAIN_AND_DATA_MODEL.md)
@@ -60,6 +62,7 @@ Planning foundation only. See the canonical planning documents on the planning b
 - [Implementation Roadmap](docs/canonical/ACARAT_IMPLEMENTATION_ROADMAP.md)
 - [Requirements Traceability](docs/canonical/ACARAT_REQUIREMENTS_TRACEABILITY.md)
 - [Source Qualification Ledger](docs/research/ACARAT_SOURCE_QUALIFICATION_LEDGER.md)
+- [Astro Source Universe](docs/research/ACARAT_ASTRO_SOURCE_UNIVERSE.md)
 - [Competitor Intelligence](docs/research/ACARAT_COMPETITOR_INTELLIGENCE_2026-09-21.md)
 - [SpecGrain root program](.specgrain/specs/SG-000001.json)
 
